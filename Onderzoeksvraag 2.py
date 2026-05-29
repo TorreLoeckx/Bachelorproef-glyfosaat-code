@@ -12,7 +12,8 @@ csv_files = [
     r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2022.csv",
     r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2023.csv",
     r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2024.csv",
-    r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2025.csv"
+    r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2025.csv",
+    r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2026.csv"
 ]
 
 path_percelen = r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Shapefile\Landbouwgebruikspercelen_2024_Vlaanderen_WGS84.shp"
@@ -87,7 +88,7 @@ for prov in full_stats['Provincie'].unique():
 plt.title('Evolutie Glyfosaatgebruik per Provincie (2018-2025)', fontsize=14, fontweight='bold')
 plt.ylabel('Proportie percelen verwijderd met glyfosaat (%)', fontsize=12)
 plt.xlabel('Jaar', fontsize=12)
-plt.xticks([2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025])
+plt.xticks([2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026])
 plt.grid(True, linestyle='--', alpha=0.5)
 plt.legend(title="Provincies", bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
