@@ -11,7 +11,8 @@ files = [
     r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2022.csv",
     r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2023.csv",
     r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2024.csv",
-    r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2025.csv"
+    r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2025.csv",
+    r"C:\Users\Administrator\OneDrive - Vrije Universiteit Brussel\3de bachelor\Bachelorproef\Nieuwe data\Landbouwgebruikspercelen (Vlaanderen)\Landbouwgebruikspercelen_2024\Classified_Parcels_Vlaanderen_2026.csv"
 ]
 
 # --- STAP 2: DATA VERWERKEN ---
@@ -73,7 +74,7 @@ if yearly_data:
     plt.title('Evolutie van Perceelclassificaties in Vlaanderen (gelijke schaal)', fontsize=20, fontweight='bold', pad=20)
     plt.xlabel('Jaar', fontsize=14)
     plt.ylabel('Aantal percelen', fontsize=14)
-    plt.xticks([2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025])
+    plt.xticks([2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026])
     
     # Formatteer y-as met punten
     plt.gca().get_yaxis().set_major_formatter(
